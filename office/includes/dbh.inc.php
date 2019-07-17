@@ -9,10 +9,10 @@ class dbh {
 
 	protected function connect() {
 
-		$this->servername = "localhost";
-		$this->username = "leeajames";
-		$this->password = "kungfupanda";
-		$this->dbname = "learning";
+		$this->servername = "";
+		$this->username = "";
+		$this->password = "";
+		$this->dbname = "";
 
 		$conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname  );
 
